@@ -9,8 +9,8 @@ const routes = new Router();
 routes.post('/recipients', AuthMiddlwers, RecipientsController.store);
 routes.post('/sessions', SessionController.store);
 routes.put('/recipients', AuthMiddlwers, RecipientsController.update);
-routes.delete('/recipients/:id', RecipientsController.delete);
-routes.get('/recipients', RecipientsController.index);
-routes.get('/recipients/:id', RecipientsController.show);
+routes.delete('/recipients/:id', AuthMiddlwers, RecipientsController.delete);
+routes.get('/recipients', AuthMiddlwers, RecipientsController.index);
+routes.get('/recipients/:id', AuthMiddlwers, RecipientsController.show);
 
 export default routes;

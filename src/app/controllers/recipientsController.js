@@ -55,9 +55,9 @@ class RecipientsController {
   }
 
   async delete(req, res) {
-    const id = await Recipients.destroy({ where: {id: req.params.id} });
+    await Recipients.destroy({ where: {id: req.params.id} });
 
-    return res.status(200).json({ message: `Recipient com ID: ${id} deletado com sucesso!`});
+    return res.status(200).json({ message: `Recipient com ID: ${req.params.id} deletado com sucesso!`});
   }
 
   async index(req, res) {
