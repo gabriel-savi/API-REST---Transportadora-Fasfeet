@@ -10,7 +10,6 @@ Nesse primeiro desafio vamos criar algumas funcionalidades básicas que aprendem
 Você deverá criar a aplicação do zero utilizando o Express, além de precisar configurar as seguintes ferramentas:
 <ul>
 <li>Sucrase + Nodemon;</li>
-<li>ESLint + Prettier + EditorConfig;</li>
 <li>Sequelize (Utilize PostgreSQL ou MySQL);</li>
 </ul>
 ### Funcionalidades
