@@ -74,4 +74,6 @@ Utilize uma nova tabela no banco de dados chamada recipients para guardar inform
 
 O cadastro de destinatários só pode ser feito por administradores autenticados na aplicação.
 
+O usuário administrador poderá cadastrar, alterar, consultar todos, consultar um específico e excluir destinatários.
+
 O destinatário não pode se autenticar no sistema, ou seja, não possui senha.
